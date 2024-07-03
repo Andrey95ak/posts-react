@@ -1,0 +1,38 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.App {
+    margin: 0 auto;
+    max-width: 800px;
+}
+
+.post__content {
+    margin-top: 15px;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 2px solid teal;
+}
+
+.posts__btns {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.nav {
+    background: whitesmoke;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px 15px;
+}
+
+.nav__links {
+    display: flex;
+    gap: 10px;
+}
